@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+        Uptime <b><%= wrutils.get_uptime() %></b> (HH:MM:SS) as of <b><%= wrutils.getdatetime() %></b><br/>
+        <b><%= pjson.name %></b> version: <b><%= pjson.version %></b>
+  <script type="text/javascript">
+    window.setTimeout(function(){ document.location.reload(true); }, 15000);
+  </script>
+  </body>
+</html>
