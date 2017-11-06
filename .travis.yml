@@ -1,4 +1,5 @@
 language: node_js
+os: osx
 deploy:
   provider: elasticbeanstalk
   access_key_id: AKIAIC54E47JW4MIMG4A
