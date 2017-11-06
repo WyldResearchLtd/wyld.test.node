@@ -6,4 +6,4 @@ deploy:
   region: "us-west-1"
   app: "wyldtech"
   env: "wyldtech-env"
-  bucket_name: "2017310hHi-wyldtech.test.node.version2.zip"
+  bucket_name: "elasticbeanstalk-us-west-1-683591320078"
