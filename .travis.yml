@@ -1,9 +1,9 @@
 language: node_js
 deploy:
   provider: elasticbeanstalk
-  access_key_id: AKIAIC54E47JW4MIMG4A
-  secret_access_key: "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"
+  access_key_id: ""
+  secret_access_key: ""
   region: "us-west-1"
   app: "wyldtech"
   env: "wyldtech-env"
-  bucket_name: "elasticbeanstalk-us-west-1-683591320078"
+  bucket_name: ""
