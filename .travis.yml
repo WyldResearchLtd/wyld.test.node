@@ -1,2 +1,11 @@
 language: node_js
 os: osx
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: AKIAIC54E47JW4MIMG4A
+  secret_access_key:
+    secure: "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"
+  region: "us-west-1"  
+  app: "wyldtech"
+  env: "wyldtech-env"
+  bucket_name: "2017310hHi-wyldtech.test.node.version2.zip"
