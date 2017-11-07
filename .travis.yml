@@ -6,7 +6,7 @@ deploy:
   region: us-west-1
   app: wyldtech
   env: wyldtech-env
-  bucket_name: ''
+  bucket_name: '2017310hHi-wyldtech.test.node.version2.zip'
 env:
   global:
   - secure: X525CRV7VBCYvF/Y9DYcTQI1Xor0cYWPkRS7KSu6prrgV79ISQ/hAESKJdeL8d/ubcazBF/e49/Xq7xA6DbZH5vabwuDYSx9R8Jv1UXiKYeXPSUG+ll91a0NxyXOCnqvd568iPBs8koSVwfHVHh/e65e2nJWFr55lyegxIh+LYAkENqHSnyCTjwkWfF00sqUg3IQNNXdW8KILqL85/K/KIFYMmxttc3IlG6uGbDxsnjzcpQ/R0/X/5EBIclkWxevsz4gSvNLC/CLGFoGpItxamIzvqGABnICHuAWfqheUALJ7e/ssHT5tpuwfIc8u+3Wy5hDbCUBXFbgzwQak6xCn2bqU1aa5LwzR3DlPu3a+UuRzRGISfQo7ppoRj8J4LKyYokERgY1BeZmz/Yiu5w8xlTDUCmee+ntCQO/xAPhCbIeTDqlhAk8fDwlwDbt2ucSg2PgVuLmkaTgOztn9AnZxlizVO9C6yhQJ2QijwCo93I98PfArvJPFLbWYU1hDKRIdnhSdkBaUC5LEkl7uw7Ksq9kMg30K6CTRUiV+sRFPip3eYQ+Yt8Umv8f39+MyIPitNBk2aHLXk7pR40arwnL6b0wzgPLeeeHQT/aAXYLMg+cj/yuKZI30YFMZ9/WLxRDPuuPcj+LBIupPEU4RbySTZ8UetL5KRAHZBfF934l6/0=
