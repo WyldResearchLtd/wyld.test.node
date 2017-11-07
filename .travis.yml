@@ -1,9 +1,11 @@
 language: node_js
 deploy:
   provider: elasticbeanstalk
-  access_key_id: ""
-  secret_access_key: ""
-  region: "us-west-1"
-  app: "wyldtech"
-  env: "wyldtech-env"
-  bucket_name: ""
+  region: us-west-1
+  app: wyldtech
+  env: wyldtech-env
+  bucket_name: ''
+env:
+  global:
+  - secure: X525CRV7VBCYvF/Y9DYcTQI1Xor0cYWPkRS7KSu6prrgV79ISQ/hAESKJdeL8d/ubcazBF/e49/Xq7xA6DbZH5vabwuDYSx9R8Jv1UXiKYeXPSUG+ll91a0NxyXOCnqvd568iPBs8koSVwfHVHh/e65e2nJWFr55lyegxIh+LYAkENqHSnyCTjwkWfF00sqUg3IQNNXdW8KILqL85/K/KIFYMmxttc3IlG6uGbDxsnjzcpQ/R0/X/5EBIclkWxevsz4gSvNLC/CLGFoGpItxamIzvqGABnICHuAWfqheUALJ7e/ssHT5tpuwfIc8u+3Wy5hDbCUBXFbgzwQak6xCn2bqU1aa5LwzR3DlPu3a+UuRzRGISfQo7ppoRj8J4LKyYokERgY1BeZmz/Yiu5w8xlTDUCmee+ntCQO/xAPhCbIeTDqlhAk8fDwlwDbt2ucSg2PgVuLmkaTgOztn9AnZxlizVO9C6yhQJ2QijwCo93I98PfArvJPFLbWYU1hDKRIdnhSdkBaUC5LEkl7uw7Ksq9kMg30K6CTRUiV+sRFPip3eYQ+Yt8Umv8f39+MyIPitNBk2aHLXk7pR40arwnL6b0wzgPLeeeHQT/aAXYLMg+cj/yuKZI30YFMZ9/WLxRDPuuPcj+LBIupPEU4RbySTZ8UetL5KRAHZBfF934l6/0=
+  - secure: IqAIiEVqyxxTmAugZ8XtC/gT6SjEzQd2znNaaFTv48+fYJDULO5hzALLSnX8dcH5ACjjayu84gNfTQkOGVEYkhd9ok2xTYHkiugiDQxxfupwR65AFVJS5icNv78xlGBpyZiHJ++0b995ov0GSUfpB8UUKNgKQBM6GCTEpoBqT+C+G5PO7tFFsOrf8NaC4UTOusOVefNScwygP4BLXZxXvOa+nGNlGy79mrbo1yEsCEE0p/e5LsLs9AlsP9Mg9Q0lOixxB+16gs8/aqTpELz3+WxJVwQd3lng8xX57kifZH/F+bsRwjYn9fOv5nVWX5S8LmKe/B+LHmg+WrUqgfCkIOvxK73PyCuOKP0qy3g/C6hdfv89YJNLWRReg8sb5jSwtjAn0WGe5bseanyr8bl8nGB8/7oVTDqyYaNwQywm/KEFQdoTzWbfFxlXPadewk5FG16Dp3cXrHhxI/KXWACoHxRkYx9eOONGr8V+LfO76XuSRvwLRF39urY+EurWbwXGBjuAMNmTDDXMxDEy31vqBrPdx3s1NL7474tS7UUlcsFt6wNPg1+C2kzTZQlO/e/3Qj4H9UBmjgt8thEJkGUkNfn37WswSK3+r2Y4lW49JCwWNcRV1CTH+HJmi2fXPtW28+HBCR5VE9EZZRa1cmLoZwj2oZxr4o4yxfmA7/JkApk=
